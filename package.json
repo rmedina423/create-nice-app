@@ -2,8 +2,47 @@
   "name": "create-brant-app",
   "version": "0.0.1",
   "description": "React/Express boilerplate generator",
-  "main": "server.js",
+  "main": "server/runServer.js",
   "repository": "https://github.com/brantstuns/create-brant-app",
   "author": "Brant Stuns",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.10.2"
+  },
+  "scripts": {
+    "lint": "eslint -c eslint.config.json . --ext .js",
+    "test": "yarn test:client && yarn test:server && yarn lint",
+    "test:coverage": "yarn test:client -- --coverage && yarn test:server -- --coverage",
+    "test:client": "NODE_ENV=test jest -c client/jestClientConfig.json",
+    "test:server": "NODE_ENV=test jest -c server/jestServerConfig.json",
+    "presendCoverage": "lcov-result-merger './coverage/**/lcov.info' ./coverage/lcov.info",
+    "sendCoverage": "CODECLIMATE_REPO_TOKEN=47e59c6e4d46c2ecce895ed39e29cbae5c7a712d44b271469f4ac4da1d611a08 codeclimate-test-reporter < coverage/lcov.info",
+    "webpack": "webpack --config webpack.dev.config.js",
+    "server": "nodemon server/runServer.js"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^19.0.0",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-react-transform": "^2.0.2",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
+    "chalk": "^1.1.3",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "jest": "^19.0.2",
+    "nodemon": "^1.11.0",
+    "webpack": "^2.5.0"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
 }

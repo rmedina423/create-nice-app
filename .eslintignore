@@ -1,0 +1,7 @@
+node_modules
+.sonar
+coverage
+server
+client/js-failure
+public
+webpack.production.config.js
