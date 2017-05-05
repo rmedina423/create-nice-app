@@ -1,0 +1,9 @@
+{
+  "name": "create-brant-app",
+  "version": "0.0.1",
+  "description": "React/Express boilerplate generator",
+  "main": "server.js",
+  "repository": "https://github.com/brantstuns/create-brant-app",
+  "author": "Brant Stuns",
+  "license": "MIT"
+}
