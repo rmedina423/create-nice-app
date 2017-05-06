@@ -1,10 +1,14 @@
 import React from 'react';
-import Party from './Party';
+import PropTypes from 'prop-types';
 
-export default function App() {
+export default function App(props) {
   return (
     <div className="app">
-      <Party partyPenguin="http://cultofthepartyparrot.com/parrots/hd/shuffleparrot.gif" />
+      {props.children}
     </div>
   );
 }
+
+App.propTypes = {
+  children: PropTypes.node.isRequired
+};

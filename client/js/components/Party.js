@@ -1,15 +1,9 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
-
-export default function Party(props) {
+export default function Party() {
   return (
     <div>
-      <img src={props.partyPenguin} alt="🐧" />
+      <img src="http://cultofthepartyparrot.com/parrots/hd/shuffleparrot.gif" alt="🐧" />
     </div>
   );
 }
-
-Party.propTypes = {
-  partyPenguin: PropTypes.string.isRequired
-};
