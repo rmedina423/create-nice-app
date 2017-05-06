@@ -1,1 +1,56 @@
 # create-brant-app
+![party-parrot](https://media.giphy.com/media/l3q2zVr6cu95nF6O4/giphy.gif)
+
+## Install
+```
+yarn add global create-brant-app 
+```
+OR
+```
+npm i -g create-brant-app
+```
+THEN:
+```
+$ create-brant-app
+```
+
+### I've found myself spinning up a lot of apps with this set up lately so this is to make it easier. I know about create-react-app, and it's cool, but it gives me more than I want and I always find myself needing a node server. 
+---
+##### Create-brant-app spins up a very basic app setup, designed to just work and let you hit the ground running. I'm only imposing a few (😉) of my opinions on you! However, it's really easy to swap pieces out so this serves as a nice minimal, modern  fullstack Javascript boilerplate generator.
+
+### What you're getting:
+Frontend: 
+- React
+- SCSS
+
+Backend:
+- Express
+
+Testing:
+- Jest
+- Enzyme
+
+Build:
+- Yarn
+- Webpack 2
+- Babel
+- Eslint w/ Airbnb's eslint config
+---
+### Yarn Scripts available: 
+| name | what it does | 
+| --- | --- |
+| lint | runs eslint using a slightly modified airbnb eslint config |
+| test | runs both the client and server tests via jest |
+| test:coverage | same as above but passing the --coverage flag to jest |
+| test:client | run the client or frontend tests |
+| test:server | run the server or backend tests |
+| presendCoverage | merges the client and server code coverages to one lcov |
+| webpack | runs the production webpack bundle |
+| webpack:watch | runs the development webpack bundle which has watch enabled |
+| server | runs the server for production via the node command with NODE_ENV set to 'prodution' |
+| server:watch | runs the server for development with nodemon and NODE_ENV set to 'development' |
+| styles | compiles the scss files to a single styles.css |
+| styles:watch | same as styles but with the --watch flag passed to node-sass |
+| build | builds the apps assets for production using webpack and node-sass |
+| prod | runs the build command and starts the production server |
+| dev | runs all the watchers in parrelel for local development |
