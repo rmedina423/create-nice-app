@@ -19,7 +19,7 @@
     "test:client": "NODE_ENV=test jest -c client/jest.client.config.json",
     "test:server": "NODE_ENV=test jest -c server/jest.server.config.json",
     "presendCoverage": "lcov-result-merger './coverage/**/lcov.info' ./coverage/lcov.info",
-    "sendCoverage": "CODECLIMATE_REPO_TOKEN=47e59c6e4d46c2ecce895ed39e29cbae5c7a712d44b271469f4ac4da1d611a08 codeclimate-test-reporter < coverage/lcov.info",
+    "sendCoverage": "need to integrate with coveralls or code coverage tool of choice",
     "webpack": "webpack --config webpack.prod.config.js",
     "webpack:watch": "webpack --config webpack.dev.config.js",
     "server": "NODE_ENV='production' node server/runServer",
