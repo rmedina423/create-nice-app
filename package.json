@@ -20,14 +20,14 @@
     "test:server": "NODE_ENV=test jest -c server/jest.server.config.json",
     "presendCoverage": "lcov-result-merger './coverage/**/lcov.info' ./coverage/lcov.info",
     "sendCoverage": "need to integrate with coveralls or code coverage tool of choice",
-    "webpack": "webpack --config webpack.prod.config.js",
+    "webpack": "NODE_ENV='production' webpack --config webpack.prod.config.js",
     "webpack:watch": "webpack --config webpack.dev.config.js",
     "server": "NODE_ENV='production' node server/runServer",
     "server:watch": "NODE_ENV='development' nodemon server/runServer.js",
     "styles": "node-sass --include-path scss client/styles/main.scss public/styles.css",
     "styles:watch": "yarn styles -- --watch",
     "build": "yarn webpack && yarn styles",
-    "prod": "yarn build && yarn server",
+    "prod": "NODE_ENV='production' yarn build && yarn server",
     "dev": "npm-run-all --parallel server:watch webpack:watch styles:watch"
   },
   "devDependencies": {
