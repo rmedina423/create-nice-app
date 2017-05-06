@@ -3,9 +3,8 @@ import Party from './Party';
 
 export default function App() {
   return (
-    <div>
-      <h1>🎑</h1>
-      <Party nice="🕺" />
+    <div className="app">
+      <Party partyPenguin="http://cultofthepartyparrot.com/parrots/hd/shuffleparrot.gif" />
     </div>
   );
 }

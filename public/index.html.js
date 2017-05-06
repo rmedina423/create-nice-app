@@ -5,6 +5,7 @@ module.exports = () => `
   <head>
     <title>😉</title>
     <link href="/styles.css" rel="stylesheet" />
+    <link rel="icon" type="image/ico" href="./favicon.ico"/>
     <meta charset="UTF-8">
   </head>
   <body>

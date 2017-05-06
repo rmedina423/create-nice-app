@@ -54,6 +54,8 @@
     "react/jsx-filename-extension": "off",
     "react/jsx-no-target-blank": "off",
     "react/jsx-space-before-closing": "off",
-    "react/jsx-tag-spacing": "off"
+    "react/jsx-tag-spacing": "off",
+    "eol-last": "off",
+    "no_underscore_dangle": "off"
   }
 }
