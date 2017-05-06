@@ -20,8 +20,9 @@ $ create-brant-app
 
 ### What you're getting:
 Frontend: 
-- React
+- React 15.5+
 - SCSS
+- React Router 4
 
 Backend:
 - Express
@@ -45,6 +46,7 @@ Build:
 | test:client | run the client or frontend tests |
 | test:server | run the server or backend tests |
 | presendCoverage | merges the client and server code coverages to one lcov |
+| sendCoverage | I don't know how you do code coverage, but however you do it do it here |
 | webpack | runs the production webpack bundle |
 | webpack:watch | runs the development webpack bundle which has watch enabled |
 | server | runs the server for production via the node command with NODE_ENV set to 'prodution' |
