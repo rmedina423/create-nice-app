@@ -7,7 +7,7 @@
   "author": "Brant Stuns",
   "license": "MIT",
   "engines": {
-    "node": ">=6.10.2"
+    "node": ">=6.10.3"
   },
   "bin": {
     "create-nice-app": "bin/nice.js"
@@ -16,8 +16,8 @@
     "lint": "eslint -c eslint.config.json . --ext .js",
     "test": "yarn test:client && yarn test:server && yarn lint",
     "test:coverage": "yarn test:client -- --coverage && yarn test:server -- --coverage",
-    "test:client": "NODE_ENV=test jest -c client/jest.client.config.json",
-    "test:server": "NODE_ENV=test jest -c server/jest.server.config.json",
+    "test:client": "jest -c client/jest.client.config.json",
+    "test:server": "jest -c server/jest.server.config.json",
     "presendCoverage": "lcov-result-merger './coverage/**/lcov.info' ./coverage/lcov.info",
     "sendCoverage": "need to integrate with coveralls or code coverage tool of choice",
     "webpack": "NODE_ENV='production' webpack --config webpack.prod.config.js",
@@ -33,21 +33,21 @@
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-eslint": "^7.2.3",
-    "babel-jest": "^19.0.0",
+    "babel-jest": "^20.0.0",
     "babel-loader": "^7.0.0",
     "babel-plugin-react-transform": "^2.0.2",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-env": "^1.4.0",
+    "babel-preset-latest": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "chalk": "^1.1.3",
-    "enzyme": "^2.8.2",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^14.1.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.3",
-    "jest": "^19.0.2",
+    "jest": "^20.0.0",
+    "jest-cli": "^20.0.0",
     "jest-enzyme": "^3.1.0",
     "node-sass": "^4.5.2",
     "nodemon": "^1.11.0",
@@ -55,6 +55,7 @@
     "react-test-renderer": "^15.5.4"
   },
   "dependencies": {
+    "enzyme": "^2.8.2",
     "express": "^4.15.2",
     "prop-types": "^15.5.8",
     "react": "^15.5.4",

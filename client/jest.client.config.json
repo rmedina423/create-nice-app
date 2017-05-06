@@ -1,18 +1,11 @@
 {
-  "transform": {
-    ".*": "<rootDir>/node_modules/babel-jest"
-  },
   "collectCoverageFrom": [
     "client/js/**/*.js"
   ],
+  "coverageDirectory": "coverage/client",
   "coveragePathIgnorePatterns": [
-    "/node_modules/",
-    "/client/js/constants"
+    "/node_modules/"
   ],
-  "setupTestFrameworkScriptFile": "./node_modules/jest-enzyme/lib/index.js",
-  "moduleNameMapper": {
-    "^.*\\.scss$": "<rootDir>/_test_/utils/SCSSStub.js"
-  },
-  "testMatch": ["**client/tests/**/*.test.js"],
-  "coverageDirectory": "coverage/client"
+  "setupTestFrameworkScriptFile": "../node_modules/jest-enzyme/lib/index.js",
+  "testMatch": ["**client/tests/**/*.test.js"]
 }
