@@ -1,22 +1,22 @@
-# create-brant-app
+# create-nice-app
 ![party-parrot](https://media.giphy.com/media/l3q2zVr6cu95nF6O4/giphy.gif)
 
 ## Install
 ```
-yarn add global create-brant-app 
+yarn add global create-nice-app 
 ```
 OR
 ```
-npm i -g create-brant-app
+npm i -g create-nice-app
 ```
 THEN:
 ```
-$ create-brant-app
+$ create-nice-app
 ```
 
 ### I've found myself spinning up a lot of apps with this set up lately so this is to make it easier. I know about create-react-app, and it's cool, but it gives me more than I want and I always find myself needing a node server. 
 ---
-##### Create-brant-app spins up a very basic app setup, designed to just work and let you hit the ground running. I'm only imposing a few (😉) of my opinions on you! However, it's really easy to swap pieces out so this serves as a nice minimal, modern  fullstack Javascript boilerplate generator.
+##### Create-nice-app spins up a very basic app setup, designed to just work and let you hit the ground running. I'm only imposing a few (😉) of my opinions on you! However, it's really easy to swap pieces out so this serves as a nice minimal, modern  fullstack Javascript boilerplate generator.
 
 ### What you're getting:
 Frontend: 

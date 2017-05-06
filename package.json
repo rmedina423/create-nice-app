@@ -1,16 +1,16 @@
 {
-  "name": "create-brant-app",
+  "name": "create-nice-app",
   "version": "0.0.1",
   "description": "React/Express boilerplate generator",
   "main": "server/runServer.js",
-  "repository": "https://github.com/brantstuns/create-brant-app",
+  "repository": "https://github.com/brantstuns/create-nice-app",
   "author": "Brant Stuns",
   "license": "MIT",
   "engines": {
     "node": ">=6.10.2"
   },
   "bin": {
-    "create-brant-app": "bin/nice.js"
+    "create-nice-app": "bin/nice.js"
   },
   "scripts": {
     "lint": "eslint -c eslint.config.json . --ext .js",
