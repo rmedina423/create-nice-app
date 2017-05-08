@@ -2,9 +2,10 @@
   "collectCoverageFrom": [
     "client/js/**/*.js"
   ],
-  "coverageDirectory": "coverage/client",
+  "coverageDirectory": "../coverage/client",
   "coveragePathIgnorePatterns": [
-    "/node_modules/"
+    "/node_modules/",
+    "/client/js/index.js"
   ],
   "setupTestFrameworkScriptFile": "../node_modules/jest-enzyme/lib/index.js",
   "testMatch": ["**client/tests/**/*.test.js"]

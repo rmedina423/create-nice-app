@@ -17,4 +17,8 @@ describe('App Component', function () {
   test('should render children components', () => {
     expect(app.contains(<Party/>)).toBe(true);
   });
+
+  test('should match snapshot', () => {
+    expect(app).toMatchSnapshot();
+  });
 });

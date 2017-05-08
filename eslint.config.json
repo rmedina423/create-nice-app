@@ -56,6 +56,11 @@
     "react/jsx-space-before-closing": "off",
     "react/jsx-tag-spacing": "off",
     "eol-last": "off",
-    "no_underscore_dangle": "off"
+    "no_underscore_dangle": "off",
+    "no-param-reassign": "off",
+    "no-var": "warn",
+    "no-underscore-dangle": "off",
+    "func-names": "off",
+    "prefer-arrow-callback": "off"
   }
 }

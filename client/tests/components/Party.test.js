@@ -12,4 +12,8 @@ describe('Party Component', function () {
   test('Party component should contain an img', () => {
     expect(party.find('img').length).toBe(1);
   });
+
+  test('should match snapshot', () => {
+    expect(party).toMatchSnapshot();
+  });
 });
