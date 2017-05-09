@@ -1,13 +1,12 @@
-# create-nice-app
 ![party-parrot](https://media.giphy.com/media/l3q2zVr6cu95nF6O4/giphy.gif)
 
+# create-nice-app
+[![Build Status](https://travis-ci.org/brantstuns/create-nice-app.svg?branch=master)](https://travis-ci.org/brantstuns/create-nice-app)
+[![Coverage Status](https://coveralls.io/repos/github/brantstuns/create-nice-app/badge.svg?branch=master)](https://coveralls.io/github/brantstuns/create-nice-app?branch=master)
+[![version](https://badge.fury.io/js/create-nice-app.svg)](https://badge.fury.io/js/create-nice-app)
 ## Install
 ```
 yarn add global create-nice-app 
-```
-OR
-```
-npm i -g create-nice-app
 ```
 THEN:
 ```
@@ -28,14 +27,14 @@ Backend:
 - Express
 
 Testing:
-- Jest
+- Jest 20
 - Enzyme
 
 Build:
 - Yarn
 - Webpack 2
 - Babel
-- Eslint w/ Airbnb's eslint config
+- Eslint w/ a modified Airbnb's eslint config
 ---
 ### Yarn Scripts available: 
 | name | what it does | 
