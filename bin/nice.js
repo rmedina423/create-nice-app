@@ -74,12 +74,12 @@ rl.question(_chalk.yellow.bold(`\n 🐕  do you want to create your nice app wit
 
               shellCmds.on('close', function(exitCode) {
                 console.log(`\n 🕺   💎   💎   💎   💎   💎   💎   💎   💎   💎   💎   💎   💎   💎   💎   🕺 \n\n`);
-                console.log(_chalk.green.bold(`You're nice new app is ready to go 🕺. run 'cd ${projectName} && yarn dev' to get started!  🐕`));
+                console.log(_chalk.green(`You're nice new app is ready to go! 🕺 Run ${_chalk.yellow.bold(`'cd ${projectName} && yarn dev'`)} to get started!  🐕`));
                 process.exit(exitCode);
               });
 
             } else {
-              console.log(chalk.red.underline(` 💾  npm support is still in the works! sorry!  💾 `));
+              console.log(chalk.red.underline(' 💾  npm support is still in the works! sorry!  💾 '));
               process.exit(1);
             }
           });
