@@ -4,6 +4,7 @@
 [![Build Status](https://travis-ci.org/brantstuns/create-nice-app.svg?branch=master)](https://travis-ci.org/brantstuns/create-nice-app)
 [![Coverage Status](https://coveralls.io/repos/github/brantstuns/create-nice-app/badge.svg?branch=master)](https://coveralls.io/github/brantstuns/create-nice-app?branch=master)
 [![version](https://badge.fury.io/js/create-nice-app.svg)](https://badge.fury.io/js/create-nice-app)
+
 ## Install
 ```
 yarn add global create-nice-app 
