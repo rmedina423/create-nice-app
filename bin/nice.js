@@ -74,7 +74,7 @@ rl.question(_chalk.yellow.bold(`\n 🐕  do you want to create your nice app wit
 
               shellCmds.on('close', function(exitCode) {
                 console.log(`\n 🕺   💎   💎   💎   💎   💎   💎   💎   💎   💎   💎   💎   💎   💎   💎   🕺 \n\n`);
-                console.log(_chalk.green(`You're nice new app is ready to go! 🕺  Run '${_chalk.yellow.bold(`cd ${projectName} && yarn dev`)}' to get started!  🐕`));
+                console.log(_chalk.green(`Your nice new app is ready to go! 🕺  Run '${_chalk.yellow.bold(`cd ${projectName} && yarn dev`)}' to get started!  🐕`));
                 process.exit(exitCode);
               });
 
