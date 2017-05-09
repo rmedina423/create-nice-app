@@ -9,9 +9,9 @@
 ```
 yarn add global create-nice-app 
 ```
-THEN:
+THEN (You may have to open a new shell for the command to appear after a yarn global install):
 ```
-$ create-nice-app
+$ create-nice-app 
 ```
 
 ### I've found myself spinning up a lot of apps with this set up lately so this is to make it easier. I know about create-react-app, and it's cool, but it gives me more than I want and I always find myself needing a node server. 
