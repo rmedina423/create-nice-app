@@ -6,7 +6,7 @@ exports[`Party Component should match snapshot 1`] = `
 >
   <img
     alt="🐧"
-    src="http://cultofthepartyparrot.com/parrots/hd/shuffleparrot.gif"
+    src="http://cultofthepartyparrot.com/parrots/hd/middleparrot.gif"
   />
 </div>
 `;
