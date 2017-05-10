@@ -1,9 +1,14 @@
-![party-parrot](https://media.giphy.com/media/l3q2zVr6cu95nF6O4/giphy.gif)
+![doggo](https://media.giphy.com/media/1M4w25h7a3PEs/giphy.gif)
+<p align="center">
+  <img src="https://media.giphy.com/media/3og0IwJPfGwyMt9uHm/giphy.gif"/>
+</p>
 
-# create-nice-app
 [![Build Status](https://travis-ci.org/brantstuns/create-nice-app.svg?branch=master)](https://travis-ci.org/brantstuns/create-nice-app)
 [![Coverage Status](https://coveralls.io/repos/github/brantstuns/create-nice-app/badge.svg?branch=master)](https://coveralls.io/github/brantstuns/create-nice-app?branch=master)
 [![version](https://badge.fury.io/js/create-nice-app.svg)](https://badge.fury.io/js/create-nice-app)
+[![dependencies Status](https://david-dm.org/brantstuns/create-nice-app/status.svg)](https://david-dm.org/brantstuns/create-nice-app)
+[![devDependencies Status](https://david-dm.org/brantstuns/create-nice-app/dev-status.svg)](https://david-dm.org/brantstuns/create-nice-app?type=dev)
+[![bitHound](https://img.shields.io/bithound/dependencies/github/rexxars/sse-channel.svg)](https://github.com/brantstuns/create-nice-app/)
 
 ## Install
 ```
