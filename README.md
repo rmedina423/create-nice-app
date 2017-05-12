@@ -1,15 +1,25 @@
 ![doggo](https://media.giphy.com/media/1M4w25h7a3PEs/giphy.gif)
 <p align="center">
   <img src="https://media.giphy.com/media/3og0IwJPfGwyMt9uHm/giphy.gif"/>
+  <br>
+  <a href="https://travis-ci.org/brantstuns/create-nice-app">
+    <img src="https://travis-ci.org/brantstuns/create-nice-app.svg?branch=master"/>
+  </a>
+  <a href="https://coveralls.io/github/brantstuns/create-nice-app?branch=master">
+    <img src="https://coveralls.io/repos/github/brantstuns/create-nice-app/badge.svg?branch=master"/>
+  </a>
+  <a href="https://badge.fury.io/js/create-nice-app">
+    <img src="https://badge.fury.io/js/create-nice-app.svg"/>
+  </a>
+  <a href="https://david-dm.org/brantstuns/create-nice-app">
+    <img src="https://david-dm.org/brantstuns/create-nice-app/status.svg"/>
+  </a>
+  <a href="https://david-dm.org/brantstuns/create-nice-app?type=dev">
+    <img src="https://david-dm.org/brantstuns/create-nice-app/dev-status.svg"/>
+  </a>
 </p>
 
-[![Build Status](https://travis-ci.org/brantstuns/create-nice-app.svg?branch=master)](https://travis-ci.org/brantstuns/create-nice-app)
-[![Coverage Status](https://coveralls.io/repos/github/brantstuns/create-nice-app/badge.svg?branch=master)](https://coveralls.io/github/brantstuns/create-nice-app?branch=master)
-[![version](https://badge.fury.io/js/create-nice-app.svg)](https://badge.fury.io/js/create-nice-app)
-[![dependencies Status](https://david-dm.org/brantstuns/create-nice-app/status.svg)](https://david-dm.org/brantstuns/create-nice-app)
-[![devDependencies Status](https://david-dm.org/brantstuns/create-nice-app/dev-status.svg)](https://david-dm.org/brantstuns/create-nice-app?type=dev)
-[![bitHound](https://img.shields.io/bithound/dependencies/github/rexxars/sse-channel.svg)](https://github.com/brantstuns/create-nice-app/)
-
+---
 ## Install
 ```
 yarn global add create-nice-app 
@@ -18,10 +28,9 @@ THEN (You may have to open a new shell for the command to appear after a yarn gl
 ```
 $ create-nice-app 
 ```
-
-### I've found myself spinning up a lot of apps with this set up lately so this is to make it easier. I know about create-react-app, and it's cool, but it gives me more than I want and I always find myself needing a node server. 
 ---
-##### Create-nice-app spins up a very basic app setup, designed to just work and let you hit the ground running. I'm only imposing a few (😉) of my opinions on you! However, it's really easy to swap pieces out so this serves as a nice minimal, modern  fullstack Javascript boilerplate generator.
+
+#### Create-nice-app spins up a very basic app setup, designed to just work and let you hit the ground running. I'm only imposing a few (😉) of my opinions on you! However, it's really easy to swap pieces out so this serves as a nice minimal, modern  fullstack Javascript boilerplate generator.
 
 ### What you're getting:
 Frontend: 
