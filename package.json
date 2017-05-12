@@ -1,6 +1,6 @@
 {
   "name": "create-nice-app",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React/Express boilerplate generator",
   "main": "server/runServer.js",
   "repository": "https://github.com/brantstuns/create-nice-app",
@@ -32,7 +32,6 @@
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
-    "babel-eslint": "^7.2.3",
     "babel-jest": "^20.0.0",
     "babel-loader": "^7.0.0",
     "babel-plugin-react-transform": "^2.0.2",
@@ -43,7 +42,7 @@
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^14.1.0",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^5.0.1",
+    "eslint-plugin-jsx-a11y": "4.0.0",
     "eslint-plugin-react": "^7.0.0",
     "jest": "^20.0.0",
     "jest-cli": "^20.0.0",
