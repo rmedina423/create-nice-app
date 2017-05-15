@@ -20,20 +20,6 @@
       "pragma": "React"
     }
   },
-  "globals": {
-    "before": false,
-    "after": false,
-    "beforeEach": false,
-    "beforeAll": false,
-    "describe": false,
-    "it": false,
-    "test": false,
-    "afterEach": false,
-    "afterAll": false,
-    "browser": false,
-    "jest": false,
-    "expect": false
-  },
   "extends": "airbnb",
   "rules": {
     "class-methods-use-this": "off",
