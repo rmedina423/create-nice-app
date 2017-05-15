@@ -13,7 +13,7 @@
     "create-nice-app": "bin/nice.js"
   },
   "scripts": {
-    "lint": "eslint -c eslint.config.json . --ext .js",
+    "lint": "eslint .",
     "test": "yarn test:client && yarn test:server && yarn lint",
     "test:coverage": "yarn test:client -- --coverage && yarn test:server -- --coverage",
     "test:client": "jest -c client/jest.client.config.json",
