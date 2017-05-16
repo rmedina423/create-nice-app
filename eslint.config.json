@@ -22,6 +22,7 @@
   },
   "extends": "airbnb",
   "rules": {
+    "arrow-parens": "off",
     "class-methods-use-this": "off",
     "comma-dangle": "off",
     "consistent-return": "warn",

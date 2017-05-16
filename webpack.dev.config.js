@@ -17,7 +17,11 @@ module.exports = {
         include: [path.join(__dirname, 'client/js/')],
         exclude: /node_modules/,
         options: { cacheDirectory: true }
-      }
+      },
+      {
+        test: /\.scss$/,
+        loaders: ['style-loader', 'css-loader', 'sass-loader']
+      },
     ]
   },
   plugins: [
