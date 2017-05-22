@@ -1,9 +1,11 @@
 const express = require('express');
 const chalk = require('chalk');
 const index = require('../public/index.html.js');
+const compression = require('compression');
 
 module.exports = {
   getApp: (app = express()) => {
+    app.use(compression());
     app.use(express.static('public'));
     app.use('/*', (req, res) => res.send(index()));
 

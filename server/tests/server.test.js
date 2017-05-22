@@ -13,7 +13,10 @@ describe('server', function () {
   test('/ route should give 200 and return the index html', () =>
     request(app)
       .get('/')
-      .expect(200, indexHTML())
+      .expect(200)
+      .then(res => {
+        expect(res.text).toBe(indexHTML());
+      })
   );
 
   test('should call listen with the passed port when starting the server', () => {
